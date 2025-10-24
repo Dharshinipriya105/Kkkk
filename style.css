@@ -1,0 +1,99 @@
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 20px;
+
+background: #f4f4f4;
+
+}
+
+header {
+
+text-align: center;
+
+margin-bottom: 20px;
+
+}
+
+select {
+
+padding: 10px;
+
+font-size: 1em;
+
+}
+
+.event-grid {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+gap: 20px;
+
+}
+
+.event-card {
+
+background: white;
+
+padding: 15px;
+
+border-radius: 8px;
+
+box-shadow: 0 0 5px #ccc;
+
+}
+
+.registration {
+
+margin-top: 40px;
+
+background: white;
+
+padding: 20px;
+
+border-radius: 8px;
+
+}
+
+form {
+
+display: grid;
+
+gap: 10px;
+
+}
+
+input {
+
+padding: 8px;
+
+width: 100%;
+
+}
+
+button {
+
+padding: 10px;
+
+background: #007bff;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+#confirmation {
+
+margin-top: 15px;
+
+color: green;
+
+}
